@@ -1,0 +1,60 @@
+html{
+    background-image: url("ing.jpg");
+    background-repeat:   no-repeat;
+    background-position:center;   
+    background-attachment: fixed; 
+    font-family: sans-serif;         
+}
+
+h1 {
+    font-size: 50px;
+    color: crimson;
+    animation: scaleAndColor 2s ease-in-out infinite alternate;
+}
+
+
+.bot{
+    background-color: rgb(235, 209, 79);
+    text-decoration: underline;
+    text-decoration-color: aquamarine ;
+    font-weight: 400;
+    animation: bot 4s linear ;
+}
+span{
+    color: cornflowerblue;
+}
+
+
+h3{
+    position: relative;
+    left: 15px;
+    top: 2px;
+    text-align: right;
+    align-items: right;
+    
+}
+h3:hover{
+    font-size: 30px;
+}
+@keyframes bot {
+    0% {
+        font-size: 30px;
+        rotate: 40deg;
+        opacity: 0%;
+    }
+    100% {
+        font-size: 20px;
+        opacity: 100%;
+    }
+}
+@keyframes scaleAndColor {
+    0% {
+        font-size: 30px;
+        color: rgb(227, 82, 111);
+    }
+    100% {
+        font-size: 40px;
+        color: rgb(216, 197, 90);
+    }
+}
+
